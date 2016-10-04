@@ -1,0 +1,120 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_yoku_menu"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="3dp"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    tools:context="com.rya.yokumenu.YokuMenu">
+
+
+    <!-- 一级菜单 -->
+    <RelativeLayout
+        android:id="@+id/rl_1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="@drawable/level1"
+        android:layout_alignParentBottom="true"
+        android:layout_centerInParent="true"
+        >
+        <ImageButton
+            android:id="@+id/ibtn_home"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="@drawable/icon_home"
+            android:layout_centerInParent="true"
+            />
+    </RelativeLayout>
+
+    <!-- 二级菜单 -->
+    <RelativeLayout
+        android:id="@+id/rl_2"
+        android:layout_width="240dp"
+        android:layout_height="105dp"
+        android:background="@drawable/level2"
+        android:layout_alignParentBottom="true"
+        android:layout_centerInParent="true"
+        >
+        <ImageButton
+            android:id="@+id/ibtn_menu"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="@drawable/icon_menu"
+            android:layout_marginTop="1dp"
+            android:layout_centerHorizontal="true"
+            />
+        <ImageButton
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="@drawable/channel6"
+            android:layout_alignParentBottom="true"
+            android:layout_alignParentLeft="true"
+            android:layout_marginLeft="7dp"
+            />
+        <ImageButton
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="@drawable/channel7"
+            android:layout_alignParentBottom="true"
+            android:layout_alignParentRight="true"
+            android:layout_marginRight="7dp"
+            />
+    </RelativeLayout>
+
+    <!-- 三级菜单 -->
+    <RelativeLayout
+        android:id="@+id/rl_3"
+        android:layout_width="490dp"
+        android:layout_height="160dp"
+        android:background="@drawable/level3"
+        android:layout_alignParentBottom="true"
+        android:layout_centerInParent="true"
+        >
+        <ImageButton
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="@drawable/channel1"
+            android:layout_alignParentBottom="true"
+            android:layout_alignParentLeft="true"
+            android:layout_marginLeft="10dp"
+            />
+        <ImageButton
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="@drawable/channel2"
+            android:layout_alignParentBottom="true"
+            android:layout_alignParentLeft="true"
+            android:layout_marginLeft="60dp"
+            android:layout_marginBottom="80dp"
+            />
+        <ImageButton
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="@drawable/channel3"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="5dp"
+            />
+        <ImageButton
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="@drawable/channel4"
+            android:layout_alignParentBottom="true"
+            android:layout_alignParentRight="true"
+            android:layout_marginRight="60dp"
+            android:layout_marginBottom="80dp"
+            />
+
+        <ImageButton
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="@drawable/channel5"
+            android:layout_alignParentBottom="true"
+            android:layout_alignParentRight="true"
+            android:layout_marginRight="10dp"
+            />
+    </RelativeLayout>
+
+</RelativeLayout>
